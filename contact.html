@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML en CSS opdracht</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="border_bottom">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over Paméla</a></li>
+                <li><a href="https://pam-organisatieondersteuning.nl" target="_blank">Naar PAM</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact</h1>
+    </header>
+    <main class="contactpagina">
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Uw naam: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Uw e-mailadres: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Uw bericht: <textarea name="message" rows="10"></textarea></label>
+            </p>
+            <p>
+                <button type="submit">Verzend</button>
+            </p>
+        </form>
+    </main>
+    <footer class="border_top">
+        <aside>
+            <p>©2021 Beyond Illusions</p>
+        </aside>
+    </footer>
+</body>
+
+</html>

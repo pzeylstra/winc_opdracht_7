@@ -1,0 +1,160 @@
+body {
+    background-color: #f6f6f6;
+    color: #2e2e2e;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px 20px;
+    line-height: 1.8em;
+}
+
+main {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 30px;
+    background-color: #fff;
+    display: block;
+}
+
+.border_bottom {
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    color: #a00279;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.box-model-properties {
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+
+.col1 {
+    width: 80%;
+}
+.col2 {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.col3 {
+    width: 80%;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link, a:visited {
+    color: #a00279;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b0ad00;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+.button {
+    color: white;    
+    background-color: #a00279;
+    border-radius: 10px;  
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.border_top {
+    border-top: 1px solid black;
+    margin-top: 100px;
+}
+
+/* media queries */
+
+@media screen and (min-width: 600px) {
+
+body {
+    padding: 50px 50px;
+}
+
+    .col3 {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+body {
+        padding: 50px 120px;
+    }    
+
+a:link, a:visited {
+        font-size: 16px;
+    }
+        
+nav li {
+        margin: 20px;
+    }
+        
+h2 {
+        font-size: 25px;
+    }
+        
+main {    
+        display: flex;
+        justify-content: center;
+        background-color: #d6d0e0;
+        font-size: 16px;
+    }
+.contactpagina {    
+        display: block;
+        background-color: #fff;
+}
+
+.col1 {
+        width: 50%;
+    }
+            
+.col2 {
+        width: 30%;
+    }
+
+.col3 {
+        width: 80%;
+    }
+}
