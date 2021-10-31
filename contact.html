@@ -21,14 +21,66 @@
     <main class="contactpagina">
         <form name="contact" method="POST" data-netlify="true">
             <p>
-                <label>Uw naam: <input type="text" name="name" /></label>
+                <label>Uw naam <input type="text" name="naam" /></label>
             </p>
             <p>
-                <label>Uw e-mailadres: <input type="email" name="email" /></label>
+                <label>Uw e-mailadres <input type="email" name="e-mailadres" /></label>
             </p>
             <p>
-                <label>Uw bericht: <textarea name="message" rows="10"></textarea></label>
+                <label>Telefoonnummer <input type="tel" name="telefoonnummer" /></label>
             </p>
+            <p>
+                <label>Leeftijd <input type="number" name="leeftijd" /></label>
+            </p>
+            <p>
+                <label>Geboortedatum <input type="date" name="geboortedatum" /></label>
+            </p>
+            <p>
+                <label>Geslacht</label>
+            <p></label>
+                <input type="radio" id="man" name="geslacht" value="man"> <label for="man">man</label>
+            </p>
+            <p>
+                <input type="radio" id="vrouw" name="geslacht" value="vrouw"> <label for="vrouw">vrouw</label>
+            </p>
+            <p>
+                <input type="radio" id="non-binair" name="geslacht" value="non-binair"> <label
+                    for="non-binair">non-binair</label>
+            </p>
+            <p> <label>Favoriete keuken</label>
+            <p></label>
+                <input type="checkbox" name="favoriete keuken" id="keuken" />
+                <label for="keuken">Frans</label>
+            </p>
+            <p>
+                <input type="checkbox" name="favoriete keuken" id="keuken" value="Italiaans" />
+                <label for="keuken">Italiaans</label>
+            </p>
+            </p>
+            <p>
+                <input type="checkbox" name="favoriete keuken" id="keuken" value="Spaans" />
+                <label for="keuken">Spaans</label>
+            </p>
+            <p>
+                <input type="checkbox" name="favoriete keuken" id="keuken" value="Arabisch" />
+                <label for="keuken">Arabisch</label>
+            </p>
+            <p>
+                <label for="kleur_schort">Selecteer je favoriete kleur:</label><br>
+                <input type="color" id="kleur_schort" name="rood" value="#ff0000">
+                <input type="color" id="kleur_schort" name="blauw" value="#00008B">
+                <input type="color" id="kleur_schort" name="groen" value="#008000">
+            </p>
+            <p>
+                <label>Biografie<p><textarea name="biografie" rows="10"></textarea></label>
+            </p>
+            <p>
+                <label>Upload je laatste recept <input type="file"></label>
+            </p>
+            <p>
+                <label>Link naar jouw website <input type="url"></label>
+            </p>
+            <button type="reset">Reset</button>
             <p>
                 <button type="submit">Verzend</button>
             </p>
